@@ -17,7 +17,8 @@ int answer(int n, vector<int> &dp)
 {
 
     if (dp[n] != 0)
-        return dp[n];
+       {cout<<"hello"<<endl;
+        return dp[n];}
 
     for (int i = 1; i <= 6; i++)
     {
